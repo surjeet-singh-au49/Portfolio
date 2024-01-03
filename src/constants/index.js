@@ -1,10 +1,8 @@
 import {
-    mobile,
-    backend,
+    react,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -14,15 +12,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    crypto,
+    videoplaza,
     threejs,
     attainu,
     txp,
@@ -54,8 +45,8 @@ import {
       icon: creator,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "React Developer",
+      icon: react,
     },
   ];
   
@@ -89,14 +80,6 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -116,7 +99,7 @@ import {
       company_name: "TravelXP pvt. ltd.",
       icon: txp,
       iconBg: "#383E56",
-      date: "May 2023 -  Oct 2023",
+      date: "June 2023 -  Oct 2023",
       points: [
         "As a skilled frontend web developer, I have successfully designed and developed a user-friendly flights web app, enabling seamless planning and booking for oneway, return, or multicity trips.",
         "My expertise extends to project migration, having spearheaded the transition of the TravelXP project from React to Next.js app directory",
@@ -143,27 +126,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Mayur Singh",
+      designation: "Owner",
+      company: "Mayur Gifts Palace",
+      image: "https://source.unsplash.com/man-in-blue-and-white-plaid-dress-shirt-sitting-on-red-couch-9TYryqt3wLk",
     },
   ];
 
@@ -171,67 +138,54 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Crypto App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Empower your crypto journey with our app – where real-time insights and user-friendly design meet to make every investment decision a confident one!",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react-router",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "chakra-ui",
           color: "pink-text-gradient",
         },
+        {
+          name: "coingecko-api",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crypto,
+      source_code_link: "https://github.com/surjeet-singh-au49/react-crypto-app",
     },
     {
-      name: "Job IT",
+      name: "Video Plaza",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Unwind and enjoy endless free videos at your own pace, with the added option to share your own content on our immersive Video Plaza app.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "react-router",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "chakra-ui",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer-motion",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: videoplaza,
+      source_code_link: "https://github.com/surjeet-singh-au49/React-Projects-/tree/main/VideoPlaza-website",
     },
   ];
 
